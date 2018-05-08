@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  background-color: #060606;
+  color: white;
+  font-size: 2rem; }
+
+a {
+  color: #2196f3;
+}
+
+a:hover, a:focus, a:active {
+  color: #6ec6ff; 
+}
+
+header {
+  text-align: center;
+}
+
+#main {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#gamearea {
+  margin: 0 auto;
+}
+
+canvas {
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+  width: 640px;
+  height: 480px;
+  background-color: black;
+  border: 1px solid;
+  border-color: white;
+}
+
+@media (min-width: 1000px) and (min-height: 800px) {
+  canvas {
+    width: 800px;
+    height: 600px;
+  } 
+}
+
+@media (min-width: 1200px) and (min-height: 900px) {
+  canvas {
+    width: 1024px;
+    height: 768px;
+  } 
+}
